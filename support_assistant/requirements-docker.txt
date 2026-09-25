@@ -1,0 +1,11 @@
+# Slim dependency set for the Docker image only (the repo's root requirements.txt is the
+# consolidated one for local development of all three modules).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+sentence-transformers>=2.7
+chromadb>=0.5
+langgraph>=0.2
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+groq>=0.9

@@ -1,0 +1,5 @@
+# Keep LF line endings so files work inside Linux containers (Docker, Codespaces).
+* text=auto eol=lf
+*.db binary
+*.joblib binary
+*.png binary

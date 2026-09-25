@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+# Rebuilt at runtime / docker build time
+support_assistant/chroma_db/
